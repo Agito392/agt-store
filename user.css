@@ -1,0 +1,38 @@
+.account
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.account form
+{
+    margin: 20px;
+    width: 300px;
+}
+.account a
+{
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+}
+.account a:hover
+{
+    color: darkmagenta;
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+.eye
+{   
+    margin-top: -32px;
+    margin-left: 270px;
+    color:gray;
+    width: 20px;
+}
+.eye i:hover
+{
+    cursor: pointer;
+}
+.eye i:active
+{
+    color: black;
+}
